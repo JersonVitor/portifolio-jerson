@@ -27,8 +27,6 @@ export default function Navbar() {
         { id: "sobre", label: "Sobre" },
         { id: "habilidades", label: "Habilidades" },
         { id: "projetos", label: "Projetos" },
-        { id: "premiacoes", label: "Prêmios" },
-        { id: "publicacoes", label: "Publicações" },
         { id: "experiencia", label: "Experiências" },
         { id: "contato", label: "Contato" },
     ];
@@ -36,15 +34,15 @@ export default function Navbar() {
     return (
         <header
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled || isMobileMenuOpen
-                    ? "bg-white/95 dark:bg-neutral-900/95 backdrop-blur-sm shadow-sm dark:shadow-neutral-800"
-                    : "bg-white/50 dark:bg-neutral-900/50 backdrop-blur-sm"
+                ? "bg-white/95 dark:bg-neutral-900/95 backdrop-blur-sm shadow-sm dark:shadow-neutral-800"
+                : "bg-white/50 dark:bg-neutral-900/50 backdrop-blur-sm"
                 }`}
         >
             <nav className="container mx-auto px-4 py-4">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center pl-2">
                         <button
-                            className="hover:opacity-80 transition-opacity"
+                            className="text-xl font-bold bg-linear-to-r from-0% from-black dark:from-gray-200 dark:to-100% to-75% dark:to-blue-400 to-blue-500 bg-clip-text text-transparent hover:opacity-80 transition-opacity cursor-pointer"
                             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                         >
                             Jerson Vitor
