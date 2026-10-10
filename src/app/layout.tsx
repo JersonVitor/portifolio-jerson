@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Jerson Vitor",
-  description: "Portifólio web de Jerson Vitor",
+  title: "Jerson Vitor | Desenvolvedor Full Stack",
+  description: "Portfólio de Jerson Vitor de Paula Gomes — Desenvolvedor Full Stack, Bacharel em Ciência da Computação pela PUC Minas. Projetos premiados em IA, visão computacional e desenvolvimento web e mobile.",
 };
 
 import Navbar from "@/components/Layouts/Navbar";

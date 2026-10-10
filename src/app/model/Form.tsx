@@ -9,30 +9,31 @@ export const Form = {
     hero: {
         status: "Aberto a oportunidades!", // Objetivo Profissional
         title: "Olá, sou Jerson Vitor!", // Nome completo: Jerson Vitor de Paula Gomes
-        profissao: "Desenvolvedor Full Stack", // Atuação na WebTech
-        description: "Estudante de Ciência da Computação focado em desenvolvimento de software, com experiência prática em soluções Full Stack e visão computacional.",
+        profissao: "Desenvolvedor Full Stack",
+        description: "Bacharel em Ciência da Computação pela PUC Minas, com experiência em P&D e desenvolvimento Full Stack (React, Next.js, NestJS e GraphQL), além de projetos premiados em visão computacional e IA aplicada à acessibilidade.",
         profilePic: profilePic,
     },
     about: {
         title: "Transformando ideias em",
         titleDestaque: " realidade digital!",
-        descriptionDestaque: "Sou um desenvolvedor apaixonado por criar interfaces que não apenas funcionam, mas encantam.",
+        descriptionDestaque: "Sou um desenvolvedor apaixonado por construir soluções completas — do banco de dados à interface — que resolvem problemas reais.",
         description: [
-            "Atualmente graduando em Ciência da Computação pela PUC Minas (2022-2026).",
-            "Possuo experiência no desenvolvimento de soluções de impacto, como o projeto SoundEyes, que utiliza visão computacional e YOLOv8 para acessibilidade.",
-            "Minha trajetória inclui formação técnica em redes pelo SENAI, certificação internacional CCNA pela Cisco e especialização em desenvolvimento Swift pelo Hackatruck.",
-            "Atuei na WebTech Network com foco em tecnologias Full Stack, unindo estética e engenharia para resolver problemas reais."
+            "Bacharel em Ciência da Computação pela Pontifícia Universidade Católica de Minas Gerais (2022 - 2026).",
+            "Atuei como Estagiário em Desenvolvimento Full Stack na Iminentia, em P&D, construindo APIs escaláveis com NestJS e GraphQL, interfaces em React e otimizando bancos PostgreSQL com TypeORM.",
+            "Na extensão universitária WebTech, desenvolvi soluções para alunos e docentes com React, Next.js e Tailwind CSS.",
+            "Autor do artigo SoundEyes, publicado na CSBC 2025, e de três projetos premiados como Melhor Trabalho Interdisciplinar na PUC Minas.",
+            "Formação complementar em redes pelo SENAI e Cisco Networking Academy, e em Swift, APIs RESTful e POO pelo Hackatruck MakerSpace."
         ],
         abilitys: [
             "Trabalho em equipe e colaboração",
             "Resolução de problemas complexos",
             "Comunicação clara e efetiva",
             "Adaptabilidade e aprendizado contínuo",
-            "Atenção aos detalhes"
+            "Documentação técnica e qualidade de código"
         ],
         publication: {
             title: "SoundEyes: Audiodescrição de Obstáculos para Pessoas com Deficiência Visual",
-            publisher: "Simpósio Brasileiro de Computação Ubíqua e Pervasiva (SBCUP)",
+            publisher: "CSBC 2025 · Simpósio Brasileiro de Computação Ubíqua e Pervasiva (SBCUP)",
             year: "2025",
             link: "https://sol.sbc.org.br/index.php/sbcup/article/view/36136"
         }
@@ -42,7 +43,7 @@ export const Form = {
         projects: [
             {
                 title: "Projeto ARES",
-                description: "Aplicativo educacional com IA para ensino e tradução de LIBRAS.",
+                description: "Aplicativo educacional para tradução e ensino de LIBRAS com IA.",
                 frameworks: ["React Native", "Expo", "Python", "PyTorch", "MobileNetV2", "GRU", "Docker", "Azure", "REST API"],
                 picture: projeoAres,
                 link: "https://github.com/ICEI-PUC-Minas-CC-TI/plmg-cc-ti6-2025-1-g03-ares",
@@ -52,22 +53,22 @@ export const Form = {
             },
             {
                 title: "SoundEyes",
-                description: "Assistente de mobilidade com visão computacional para deficientes visuais.",
+                description: "Audiodescrição de obstáculos para pessoas com deficiência visual, com visão computacional. Artigo publicado na CSBC 2025.",
                 frameworks: ["Kotlin", "Android", "Jetpack Compose", "TensorFlow", "YOLOv8", "Google TTS", "CameraX", "ESP32-CAM"],
                 picture: soundeyes,
                 link: "https://github.com/JersonVitor/SoundEyes",
                 isPrize: true,
-                titlePrize: "Melhor Prêmio Interdisciplinar V - Sistemas Computacionais",
+                titlePrize: "Melhor Trabalho Interdisciplinar V: Sistemas Computacionais",
                 localPrize: "Puc Minas Coração Eucarístico",
             },
             {
                 title: "Melhor Preço",
-                description: "Comparador colaborativo de preços e ofertas em supermercados locais.",
-                frameworks: ["HTML", "CSS", "JavaScript", "Bootstrap", "Node.js", "OpenLayers", "jQuery"],
+                description: "Aplicação web de comparação de ofertas em supermercados locais.",
+                frameworks: ["Java", "Spark", "PostgreSQL", "HTML", "CSS", "JavaScript"],
                 picture: melhorpreco,
                 link: "https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20222-01-precos-em-supermercados",
                 isPrize: true,
-                titlePrize: "Melhor Prêmio Interdisciplinar I - Aplicações Web",
+                titlePrize: "Melhor Trabalho Interdisciplinar I: Aplicações Web",
                 localPrize: "Puc Minas Coração Eucarístico",
             },
             {
@@ -105,43 +106,57 @@ export const Form = {
     experience: {
         experiences: [
             {
-                title: "Desenvolvedor Full Stack",
-                address: "WebTech Network (PUC Minas)",
+                title: "Estagiário em Desenvolvimento Full Stack",
+                address: "Iminentia · P&D",
                 description: [
-                    "Desenvolvimento de soluções web modernas utilizando React, TailwindCSS e Node.js.",
-                    "Atuação em equipe ágil com foco em metas e entregas.",
-                    "Organização de workshops técnicos."
+                    "Atuação em P&D com foco em sistemas de informação, desenvolvimento full stack e algoritmos aplicados.",
+                    "Construção de APIs escaláveis com NestJS e GraphQL, e interfaces modernas em React.",
+                    "Gerenciamento de múltiplos projetos integrados com TypeScript estrito e pnpm.",
+                    "Otimização de banco de dados PostgreSQL utilizando TypeORM.",
+                    "Apoio na implementação de algoritmos para diagnóstico de falhas em sistemas de potência.",
+                    "Suporte em testes, validações, documentação técnica e manutenção de sistemas."
                 ],
+                techs: ["NestJS", "GraphQL", "React", "TypeScript", "PostgreSQL", "TypeORM", "pnpm"],
+                initialDate: "01/2026",
+                finishedDate: "05/2026"
+            },
+            {
+                title: "Desenvolvedor Full Stack",
+                address: "WebTech · Extensão Universitária (PUC Minas)",
+                description: [
+                    "Colaboração na criação de soluções tecnológicas para alunos e docentes, construindo interfaces modernas, responsivas e performáticas.",
+                    "Aplicação prática do ecossistema JavaScript/TypeScript no desenvolvimento de funcionalidades para desafios do ambiente acadêmico.",
+                    "Trabalho em equipe utilizando Git para controle de versão, garantindo entregas eficientes."
+                ],
+                techs: ["React", "Next.js", "Tailwind CSS", "TypeScript", "Git"],
                 initialDate: "05/2025",
                 finishedDate: "12/2025"
             }
         ],
         certifications: [
             {
-                title: "Ciência da Computação",
+                title: "Bacharelado em Ciência da Computação",
                 address: "Pontifícia Universidade Católica de Minas Gerais",
-                description: "A Ciência da Computação está amplamente inserida na sociedade contemporânea e exige profissionais em constante qualificação. ",
+                description: "Formação em engenharia de software, algoritmos, aplicações web, sistemas computacionais e sistemas paralelos e distribuídos.",
                 initialDate: "08/2022",
-                finishedDate: "07/2026"
+                finishedDate: "08/2026"
             },
             {
-                title: "CCNAv7: Introdução às redes",
+                title: "Algoritmos, Swift, APIs RESTful e POO",
+                address: "Hackatruck MakerSpace",
+                description: "Fundamentos de Swift, consumo de APIs RESTful e Programação Orientada a Objetos.",
+                initialDate: "2024",
+            },
+            {
+                title: "Introdução a Redes de Computadores",
                 address: "Cisco Networking Academy",
                 description: "Configuração de roteadores, switches, IPv4/IPv6 e segurança.",
-                initialDate: "08/2024",
-                finishedDate: "12/2025"
+                initialDate: "2024",
             },
             {
-                title: "Algoritmos e POO com Swift",
-                address: "Hackatruck Makerspace",
-                description: "Fundamentos de Swift, Orientação a Objetos e Herança.",
-                initialDate: "11/2024",
-                finishedDate: "12/2025"
-            },
-            {
-                title: "Manutenção de Redes",
-                address: "SENAI",
-                description: "Instalação e manutenção de redes de computadores.",
+                title: "Instalação e Manutenção de Redes de Computadores",
+                address: "Serviço Nacional de Aprendizagem Industrial (SENAI)",
+                description: "Instalação, configuração e manutenção de redes de computadores.",
                 initialDate: "2020",
                 finishedDate: "2021"
             }
@@ -155,24 +170,32 @@ export const Form = {
         { name: "TypeScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
         { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
         { name: "Next.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
+        { name: "NestJS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" },
+        { name: "GraphQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" },
         { name: "Tailwind CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
         { name: "Bootstrap", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" },
-        { name: "jQuery", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" },
         { name: "Kotlin", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" },
         { name: "Android", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" },
         { name: "Jetpack Compose", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetpackcompose/jetpackcompose-original.svg" },
         { name: "Flutter", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" },
         { name: "Dart", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" },
+        { name: "Swift", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" },
         { name: "Node.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
         { name: "Java", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
         { name: "Maven", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" },
         { name: "Hibernate", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg" },
         { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+        { name: "C", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" },
+        { name: "C++", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
         { name: "TensorFlow", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
         { name: "PyTorch", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" },
+        { name: "PostgreSQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
         { name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
         { name: "SQLite", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" },
         { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+        { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+        { name: "Azure", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" },
+        { name: "pnpm", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pnpm/pnpm-original.svg" },
         { name: "GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
     ],
     contact: {

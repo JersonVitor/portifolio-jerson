@@ -12,7 +12,7 @@ export default function CardEducation({ certifications }: CardEducationProps) {
                         <div className=" flex justify-between">
                             <p className=" w-2/3 text-l font-bold dark:text-gray-200">{experience.title}</p>
                             <span className="h-fit p-2 border border-gray-300 dark:border-gray-700 rounded text-[12px] text-nowrap dark:text-gray-400">
-                                <p>{experience.initialDate} - {experience.finishedDate}</p>
+                                <p>{experience.finishedDate ? `${experience.initialDate} - ${experience.finishedDate}` : experience.initialDate}</p>
                             </span>
                         </div>
                         <p className="w-2/3 text-sm mb-2 text-blue-500 dark:text-blue-500">{experience.address}</p>
